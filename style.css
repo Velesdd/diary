@@ -1,0 +1,119 @@
+body {
+
+    margin:0;
+    height: 100vh;
+    width: 100vw;
+    background:#60858b33;
+}
+.b{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.first,#first1 {
+    display: flex;
+    width: 100vw;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+#first1{
+    margin-top:0px;
+}
+.header{
+    width: 100vw;
+    height: 60px;
+    background: #60618bb5;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    font-size:30px;
+    color:white;
+    font-weight:bolder;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+#logo {
+    position:absolute;
+    left:20px;
+}
+img{
+   height: 55px;
+   width:55px;
+   margin-top: 5px;
+}
+#pip {
+    position:absolute;
+    right:40px;
+    top: 5px;
+}
+@media (max-width: 650px){
+     #pip{
+        visibility: visible;
+    }
+    .main {
+        width: 90vw;
+        height: 80px;
+        margin-top:10px;
+        border-radius:5px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+    .header{
+        width: 100vw;
+        height: 60px;
+    }
+}
+@media (min-width: 650px){
+
+     #pip{
+       visibility:hidden;
+    }
+}
+.main{
+    background:#fffdfd;
+    height: 90px;
+    width: 90vw;
+    margin-top:10px;
+    margin-right: 0px;
+    border-radius:5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+}
+
+.data {
+    font-size:25px;
+    font-family: 'Concert One', cursive;
+    color: #ff9b00;
+    margin-left:10px;
+    margin-right:10px;
+}
+.time {
+    font-size:20px;
+    font-family: 'Concert One', cursive;
+    color: gray;
+    margin-top:2px;
+}
+button {
+    width:70px;
+    height:70px;
+    border-radius:45px;
+    border:none;
+    background:gray;
+    position: fixed;
+    right: 30px;
+    top: 83%;
+    text-align:center;
+    font-size:45px;
+}
+#button1 {
+    visibility: visible;
+
+}
+#button2 {
+    visibility: hidden;
+}
